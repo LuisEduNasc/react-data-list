@@ -1,77 +1,335 @@
 {
   "tags": [
-    {"title": "JavaScript", "amountOfVideos": 88},
-    {"title": "Python", "amountOfVideos": 167},
-    {"title": "Java", "amountOfVideos": 22},
-    {"title": "C++", "amountOfVideos": 54},
-    {"title": "HTML", "amountOfVideos": 110},
-    {"title": "CSS", "amountOfVideos": 76},
-    {"title": "React", "amountOfVideos": 33},
-    {"title": "Angular", "amountOfVideos": 199},
-    {"title": "Node.js", "amountOfVideos": 5},
-    {"title": "SQL", "amountOfVideos": 41},
-    {"title": "AWS", "amountOfVideos": 112},
-    {"title": "Docker", "amountOfVideos": 81},
-    {"title": "Kubernetes", "amountOfVideos": 155},
-    {"title": "Git", "amountOfVideos": 87},
-    {"title": "GitHub", "amountOfVideos": 196},
-    {"title": "Jenkins", "amountOfVideos": 61},
-    {"title": "DevOps", "amountOfVideos": 34},
-    {"title": "Cybersecurity", "amountOfVideos": 189},
-    {"title": "Networking", "amountOfVideos": 173},
-    {"title": "Cloud Computing", "amountOfVideos": 90},
-    {"title": "Big Data", "amountOfVideos": 119},
-    {"title": "Artificial Intelligence", "amountOfVideos": 145},
-    {"title": "Machine Learning", "amountOfVideos": 50},
-    {"title": "Data Science", "amountOfVideos": 15},
-    {"title": "Blockchain", "amountOfVideos": 66},
-    {"title": "IoT", "amountOfVideos": 175},
-    {"title": "Web Development", "amountOfVideos": 94},
-    {"title": "Mobile Development", "amountOfVideos": 27},
-    {"title": "Software Engineering", "amountOfVideos": 2},
-    {"title": "Agile Methodology", "amountOfVideos": 152},
-    {"title": "Scrum", "amountOfVideos": 160},
-    {"title": "Product Management", "amountOfVideos": 17},
-    {"title": "UI/UX Design", "amountOfVideos": 94},
-    {"title": "Quality Assurance", "amountOfVideos": 8},
-    {"title": "Project Management", "amountOfVideos": 63},
-    {"title": "ITIL", "amountOfVideos": 138},
-    {"title": "ServiceNow", "amountOfVideos": 9},
-    {"title": "IT Governance", "amountOfVideos": 83},
-    {"title": "Enterprise Architecture", "amountOfVideos": 57},
-    {"title": "IT Security", "amountOfVideos": 129},
-    {"title": "Penetration Testing", "amountOfVideos": 184},
-    {"title": "Incident Response", "amountOfVideos": 20},
-    {"title": "Microservices", "amountOfVideos": 77},
-    {"title": "Containers", "amountOfVideos": 112},
-    {"title": "Serverless", "amountOfVideos": 89},
-    {"title": "RESTful APIs", "amountOfVideos": 44},
-    {"title": "GraphQL", "amountOfVideos": 99},
-    {"title": "API Security", "amountOfVideos": 123},
-    {"title": "OAuth", "amountOfVideos": 68},
-    {"title": "OpenID Connect", "amountOfVideos": 37},
-    {"title": "Identity Management", "amountOfVideos": 16},
-    {"title": "CI/CD", "amountOfVideos": 101},
-    {"title": "Continuous Integration", "amountOfVideos": 73},
-    {"title": "Continuous Deployment", "amountOfVideos": 84},
-    {"title": "Continuous Delivery", "amountOfVideos": 57},
-    {"title": "Version Control", "amountOfVideos": 123},
-    {"title": "SVN", "amountOfVideos": 81},
-    {"title": "Mercurial", "amountOfVideos": 64},
-    {"title": "Code Review", "amountOfVideos": 109},
-    {"title": "Static Code Analysis", "amountOfVideos": 29},
-    {"title": "Dynamic Code Analysis", "amountOfVideos": 94},
-    {"title": "Code Quality Metrics", "amountOfVideos": 47},
-    {"title": "Test Automation", "amountOfVideos": 111},
-    {"title": "Unit Testing", "amountOfVideos": 92},
-    {"title": "Integration Testing", "amountOfVideos": 31},
-    {"title": "System Testing", "amountOfVideos": 83},
-    {"title": "Acceptance Testing", "amountOfVideos": 57},
-    {"title": "Regression Testing", "amountOfVideos": 123},
-    {"title": "Performance Testing", "amountOfVideos": 81},
-    {"title": "Load Testing", "amountOfVideos": 64},
-    {"title": "Stress Testing", "amountOfVideos": 109},
-    {"title": "Security Testing", "amountOfVideos": 29},
-    {"title": "Accessibility Testing", "amountOfVideos": 94}
+    {
+      "title": "JavaScript",
+      "amountOfVideos": 88,
+      "slug": "javascript"
+    },
+    {
+      "title": "Python",
+      "amountOfVideos": 167,
+      "slug": "python"
+    },
+    {
+      "title": "Java",
+      "amountOfVideos": 22,
+      "slug": "java"
+    },
+    {
+      "title": "C++",
+      "amountOfVideos": 54,
+      "slug": "c"
+    },
+    {
+      "title": "HTML",
+      "amountOfVideos": 110,
+      "slug": "html"
+    },
+    {
+      "title": "CSS",
+      "amountOfVideos": 76,
+      "slug": "css"
+    },
+    {
+      "title": "React",
+      "amountOfVideos": 33,
+      "slug": "react"
+    },
+    {
+      "title": "Angular",
+      "amountOfVideos": 199,
+      "slug": "angular"
+    },
+    {
+      "title": "Node.js",
+      "amountOfVideos": 5,
+      "slug": "nodejs"
+    },
+    {
+      "title": "SQL",
+      "amountOfVideos": 41,
+      "slug": "sql"
+    },
+    {
+      "title": "AWS",
+      "amountOfVideos": 112,
+      "slug": "aws"
+    },
+    {
+      "title": "Docker",
+      "amountOfVideos": 81,
+      "slug": "docker"
+    },
+    {
+      "title": "Kubernetes",
+      "amountOfVideos": 155,
+      "slug": "kubernetes"
+    },
+    {
+      "title": "Git",
+      "amountOfVideos": 87,
+      "slug": "git"
+    },
+    {
+      "title": "GitHub",
+      "amountOfVideos": 196,
+      "slug": "github"
+    },
+    {
+      "title": "Jenkins",
+      "amountOfVideos": 61,
+      "slug": "jenkins"
+    },
+    {
+      "title": "DevOps",
+      "amountOfVideos": 34,
+      "slug": "devops"
+    },
+    {
+      "title": "Cybersecurity",
+      "amountOfVideos": 189,
+      "slug": "cybersecurity"
+    },
+    {
+      "title": "Networking",
+      "amountOfVideos": 173,
+      "slug": "networking"
+    },
+    {
+      "title": "Cloud Computing",
+      "amountOfVideos": 90,
+      "slug": "cloud-computing"
+    },
+    {
+      "title": "Big Data",
+      "amountOfVideos": 119,
+      "slug": "big-data"
+    },
+    {
+      "title": "Artificial Intelligence",
+      "amountOfVideos": 145,
+      "slug": "artificial-intelligence"
+    },
+    {
+      "title": "Machine Learning",
+      "amountOfVideos": 50,
+      "slug": "machine-learning"
+    },
+    {
+      "title": "Data Science",
+      "amountOfVideos": 15,
+      "slug": "data-science"
+    },
+    {
+      "title": "Blockchain",
+      "amountOfVideos": 66,
+      "slug": "blockchain"
+    },
+    {
+      "title": "IoT",
+      "amountOfVideos": 175,
+      "slug": "iot"
+    },
+    {
+      "title": "Web Development",
+      "amountOfVideos": 94,
+      "slug": "web-development"
+    },
+    {
+      "title": "Mobile Development",
+      "amountOfVideos": 27,
+      "slug": "mobile-development"
+    },
+    {
+      "title": "Software Engineering",
+      "amountOfVideos": 2,
+      "slug": "software-engineering"
+    },
+    {
+      "title": "Agile Methodology",
+      "amountOfVideos": 152,
+      "slug": "agile-methodology"
+    },
+    {
+      "title": "Scrum",
+      "amountOfVideos": 160,
+      "slug": "scrum"
+    },
+    {
+      "title": "Product Management",
+      "amountOfVideos": 17,
+      "slug": "product-management"
+    },
+    {
+      "title": "UI/UX Design",
+      "amountOfVideos": 94,
+      "slug": "ui-ux-design"
+    },
+    {
+      "title": "Quality Assurance",
+      "amountOfVideos": 8,
+      "slug": "quality-assurance"
+    },
+    {
+      "title": "Project Management",
+      "amountOfVideos": 63,
+      "slug": "project-management"
+    },
+    {
+      "title": "ITIL",
+      "amountOfVideos": 138,
+      "slug": "itil"
+    },
+    {
+      "title": "ServiceNow",
+      "amountOfVideos": 9,
+      "slug": "servicenow"
+    },
+    {
+      "title": "IT Governance",
+      "amountOfVideos": 83,
+      "slug": "it-governance"
+    },
+    {
+      "title": "Enterprise Architecture",
+      "amountOfVideos": 57,
+      "slug": "enterprise-architecture"
+    },
+    {
+      "title": "IT Security",
+      "amountOfVideos": 129,
+      "slug": "it-security"
+    },
+    {
+      "title": "Penetration Testing",
+      "amountOfVideos": 184,
+      "slug": "penetration-testing"
+    },
+    {
+      "title": "Incident Response",
+      "amountOfVideos": 20,
+      "slug": "incident-response"
+    },
+    {
+      "title": "Microservices",
+      "amountOfVideos": 77,
+      "slug": "microservices"
+    },
+    {
+      "title": "Containers",
+      "amountOfVideos": 112,
+      "slug": "containers"
+    },
+    {
+      "title": "Serverless",
+      "amountOfVideos": 89,
+      "slug": "serverless"
+    },
+    {
+      "title": "RESTful APIs",
+      "amountOfVideos": 44,
+      "slug": "restful-apis"
+    },
+    {
+      "title": "GraphQL",
+      "amountOfVideos": 99,
+      "slug": "graphql"
+    },
+    {
+      "title": "API Security",
+      "amountOfVideos": 123,
+      "slug": "api-security"
+    },
+    {
+      "title": "OAuth",
+      "amountOfVideos": 68,
+      "slug": "oauth"
+    },
+    {
+      "title": "OpenID Connect",
+      "amountOfVideos": 37,
+      "slug": "openid-connect"
+    },
+    {
+      "title": "Identity Management",
+      "amountOfVideos": 16,
+      "slug": "identity-management"
+    },
+    {
+      "title": "CI/CD",
+      "amountOfVideos": 101,
+      "slug": "ci-cd"
+    },
+    {
+      "title": "Continuous Integration",
+      "amountOfVideos": 73,
+      "slug": "continuous-integration"
+    },
+    {
+      "title": "Continuous Deployment",
+      "amountOfVideos": 84,
+      "slug": "continuous-deployment"
+    },
+    {
+      "title": "Continuous Delivery",
+      "amountOfVideos": 57,
+      "slug": "continuous-delivery"
+    },
+    {
+      "title": "Version Control",
+      "amountOfVideos": 123,
+      "slug": "version-control"
+    },
+    {
+      "title": "SVN",
+      "amountOfVideos": 81,
+      "slug": "svn"
+    },
+    {
+      "title": "Mercurial",
+      "amountOfVideos": 64,
+      "slug": "mercurial"
+    },
+    {
+      "title": "Code Review",
+      "amountOfVideos": 109,
+      "slug": "code-review"
+    },
+    {
+      "title": "Static Code Analysis",
+      "amountOfVideos": 29,
+      "slug": "static-code-analysis"
+    },
+    {
+      "title": "Dynamic Code Analysis",
+      "amountOfVideos": 94,
+      "slug": "dynamic-code-analysis"
+    },
+    {
+      "title": "Code Quality Metrics",
+      "amountOfVideos": 47,
+      "slug": "code-quality-metrics"
+    },
+    {
+      "title": "Test Automation",
+      "amountOfVideos": 111,
+      "slug": "test-automation"
+    },
+    {
+      "title": "Unit Testing",
+      "amountOfVideos": 92,
+      "slug": "unit-testing"
+    },
+    {
+      "title": "Integration Testing",
+      "amountOfVideos": 31,
+      "slug": "integration-testing"
+    },
+    {
+      "id": "d41b",
+      "title": "Electron lang",
+      "slug": "electron-lang",
+      "amountOfVideos": 0
+    }
   ]
 }
